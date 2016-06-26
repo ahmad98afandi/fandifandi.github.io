@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^kanal/([0-9a-zA-Z]+) index.php?i=$1 [NC]
+#RewriteRule ^artikel/([0-9a-zA-Z]+) index.php?artikel=$1
+
+ErrorDocument 404 http://localhost/dua/404/
+ErrorDocument 403 http://localhost/dua/tes.html

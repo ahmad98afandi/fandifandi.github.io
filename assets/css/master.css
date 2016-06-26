@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+  /*background-image: url('../img/bg.jpg');*/
+  background-color: #294944;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+
+}
+/*
+.greeting{
+  overflow: visible;
+  white-space: pre-wrap;
+  width: 1340px;
+  text-align: center;
+  animation: ketik 5s steps(100, end);
+  -webkit-animation: ketik 5s steps(100, end);
+  -ms-animation: ketik 5s steps(100, end);
+}
+@keyframes ketik{
+  from {width: 0;}
+}
+@-webkit-keyframes ketik{
+  from {width: 0;}
+}
+@-ms-keyframes ketik{
+  from {width: 0;}
+}
+*/
+nav{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  border-bottom: 2px solid #ddd;
+  transition: all 0.5s;
+}
+
+nav:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+h1{
+  float: left;
+  color: #fff;
+  line-height: 60px;
+  margin-left: 25px;
+
+}
+
+h1 a:hover{
+  color: #7dd333;
+
+  /*border-bottom: 3px solid #7dd333;*/
+
+}
+.search{
+  line-height: 60px;
+  width: 450px;
+  height: 25px;
+}
+.cari{
+  line-height: 60px;
+  margin-left: 10px;
+  width: 50px;
+  height: 25px;
+  margin-right: 50px;
+}
+ul{
+  float: right;
+  padding: 15px;
+  /*border-top: 2px solid #ff000d;*/
+  /*transition: 1s;*/
+}
+li{
+  display: inline;
+  padding: 15px;
+  /*border-right: 1px solid #ddd;*/
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  transition: all 1s
+}
+a:hover{
+  color: #7dd333;
+  text-decoration: underline;
+}
+ul li:hover{
+    /*border-bottom: 3px solid #7dd333;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);*/
+
+}
+
+ul li ul{
+  display: none;
+}
+ul li ul:hover ul{
+  display: block;
+}
+/*
+li:first-child{
+  border-left: 1px solid #ddd;
+}
+li:last-child{
+  border: none;
+}
+*/
+#atas{
+  float: left;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0);
+  color: #fff;
+  margin-top: 70px;
+  transition: all 0.5s;
+  /*text-align: center;*/
+  /*font-size: 50px;*/
+}
+#bawah{
+  height: 560px;
+  width: 100%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.0);
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  top: 0;
+  transition: all 0.5s
+
+}
+#bawah img{
+  border-radius: 400px;
+  transition: all 1s;
+}
+.more a{
+  background-color: #fff;
+  color: #222;
+  font-size: 30px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.more a:hover{
+  color: #fff;
+  background-color: #222;
+  border: 2px solid #fff;
+  text-decoration: none;
+
+}
+#kontak{
+  height: 645px;
+  width: 100%;
+  background-color: #7dd333;
+  transition: all 1s
+}
+
+/************** Cerpen *****************/
+#cerpen{
+  height: auto;
+  width: 80%;
+  margin: 20px auto;
+}
+#kolom3-cerpen{
+  float: left;
+  width: 31%;
+  height: 500px;
+  background: #111;
+  margin: 1%;
+  box-shadow: 0px 0px 5px 1px  #7dd333;
+}
+.gambar img{
+  width: 100%;
+  height: 300px;
+}
+.judul{
+  height: 170px;
+}
+.judul a{
+  color: #fff;
+
+}
+.judul a:hover{
+  text-decoration: underline;
+
+}
+
+/*************** Cerpen End *********/
+/*********** Gallery **********/
+#gallery{
+  height: auto;
+  width: 80%;
+  margin: 25px auto;
+}
+.kolom3{
+  float: left;
+  width: 31%;
+  height: 300px;
+  background: #333;
+  margin: 1%;
+  /*position: relative;*/
+
+}
+.kolom3 img{
+  width: 100%;
+  height: 300px;
+
+}
+
+.kolom3 p{
+  display: none;
+  /*
+  bottom:305px;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  line-height: 20px;
+  /*position: absolute;
+  text-align: center;
+  border-top: 1px solid #fff;
+  */
+}
+/*
+.kolom3:hover p{
+  display: block;
+}
+*/
+/************ Gallery End *************/
